@@ -8,6 +8,7 @@ export default class Player extends _Actor {
   private movePower = t8
   private jumpPower = t20
   private midAir = false
+  private airJumpUsed = false
 
   onInitialize() {
     Player.self = this
@@ -26,6 +27,10 @@ export default class Player extends _Actor {
     if (Engine.input.keyboard.wasPressed(Input.Keys.Space) && !this.midAir) {
       this.vel.y = -this.jumpPower
     }
+    if (Engine.input.keyboard.wasPressed(Input.Keys.Space) && this.midAir && !this.airJumpUsed) {
+      this.vel.y = -this.jumpPower
+      this.airJumpUsed = true
+    }
   }
 
   onPostUpdate() {
@@ -33,7 +38,11 @@ export default class Player extends _Actor {
   }
 
   whileCollision(e: PostCollisionEvent) {
-    if (e.other.body.collider.type !== CollisionType.Passive && e.side === Side.Top) this.midAir = false
+    // touching ground --> reset jump related properties
+    if (e.other.body.collider.type !== CollisionType.Passive && e.side === Side.Top) {
+      this.midAir = false
+      this.airJumpUsed = false
+    }
   }
 }
 

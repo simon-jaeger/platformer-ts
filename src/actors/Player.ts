@@ -9,6 +9,8 @@ import {
 import Engine from "/src/services/Engine"
 import _Actor from "/src/actors/_Actor"
 import Assets from "/src/services/Assets"
+import Disappearer from "/src/actors/Disappearer"
+import * as u from "/src/utils/functions"
 
 enum Animation { Idle, Run, Jump, Fall, Death }
 
@@ -71,6 +73,12 @@ export default class Player extends _Actor {
       this.midAir = false
       this.airJumpUsed = false
     }
+  }
+
+  async onPostKill() {
+    this.scene.add(new Disappearer(this.pos.x, this.pos.y))
+    await u.sleep(500)
+    this.respawn()
   }
 
   onPreDraw() {

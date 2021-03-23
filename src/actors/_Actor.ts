@@ -6,8 +6,8 @@ export default abstract class _Actor extends Actor {
 
   constructor(config) {
     super({
-      x: config.x + config.width / 2,
-      y: config.y + config.height / 2,
+      x: config.x,
+      y: config.y,
       width: config.width,
       height: config.height,
     })

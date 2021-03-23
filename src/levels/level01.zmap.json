@@ -48,15 +48,15 @@
                  "y":0
                 }, 
                 {
-                 "height":32,
+                 "height":28,
                  "id":8,
                  "name":"",
                  "rotation":0,
                  "type":"Player",
                  "visible":true,
-                 "width":32,
+                 "width":20,
                  "x":48,
-                 "y":336
+                 "y":320
                 }],
          "opacity":1,
          "type":"objectgroup",

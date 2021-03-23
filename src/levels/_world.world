@@ -1,0 +1,20 @@
+{
+    "maps": [
+        {
+            "fileName": "level00.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "level01.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 416
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

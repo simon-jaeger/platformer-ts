@@ -1,23 +1,12 @@
-import {Scene} from "excalibur"
-import Block from "/src/actors/Block"
-import Player from "/src/actors/Player"
-import Spike from "/src/actors/Spike"
+import _Level from "/src/levels/_Level"
+import map from "/src/levels/level00.zmap.json"
+import Disappearer from "/src/actors/Disappearer"
 
-export default class Level00 extends Scene {
+export default class Level00 extends _Level {
+  protected map = map
+
   onInitialize() {
-    const actors = [
-      new Player({x: t8, y: t20, width: t2, height: t2}),
-
-      new Block({x: 0, y: 0, width: t1, height: t23}),
-      new Block({x: 0, y: t23, width: t32, height: t1}),
-      new Block({x: t31, y: 0, width: t1, height: t23}),
-
-      new Block({x: t1, y: t20, width: t4, height: t3}),
-      new Block({x: t10, y: t18, width: t4, height: t1}),
-
-      new Block({x: t26, y: t21, width: t1, height: t2}),
-      new Spike({x: t27, y: t22, width: t4, height: t1}),
-    ]
-    actors.forEach(x => this.add(x))
+    super.onInitialize()
+    // this.add(new Disappearer({x: t4, y: t4, width: t6, height: t6}))
   }
 }

@@ -1,5 +1,5 @@
 // tile helper unit
-const t1 = 32
+const t1 = 16
 const t2 = 2 * t1
 const t3 = 3 * t1
 const t4 = 4 * t1

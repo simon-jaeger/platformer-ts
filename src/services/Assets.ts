@@ -11,6 +11,8 @@ const Assets = new class {
       this.textures.set(x, new Texture(x))
     })
     this.loader = new Loader([...this.textures.values()])
+    this.loader.backgroundColor = '#000000'
+    this.loader.logo = ''
     this.loader.suppressPlayButton = true
   }
 

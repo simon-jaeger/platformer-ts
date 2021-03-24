@@ -1,15 +1,19 @@
-import {Loader, Texture} from "excalibur"
+import {Loader, SpriteFont, Texture} from "excalibur"
 
 const textureFiles = Object.keys(import.meta.glob("/assets/*"))
 
 const Assets = new class {
   loader!: Loader
   private textures = new Map<string, Texture>()
+  private font
 
   load() {
     Object.values(textureFiles).forEach((x) => {
       this.textures.set(x, new Texture(x))
     })
+
+    // language=file-reference
+
     this.loader = new Loader([...this.textures.values()])
     this.loader.backgroundColor = '#000000'
     this.loader.logo = ''

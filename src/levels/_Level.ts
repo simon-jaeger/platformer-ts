@@ -1,12 +1,13 @@
 import {Scene} from "excalibur"
+import mapStructure from "/src/levels/level00.zmap.json"
 import Player from "/src/actors/Player"
 import Block from "/src/actors/Block"
 import Spike from "/src/actors/Spike"
 import Text from "/src/actors/Text"
-import mapStructure from "/src/levels/level00.zmap.json"
+import Coin from "/src/actors/Coin"
 
 export default abstract class _Level extends Scene {
-  protected actorTypes = {Player, Block, Spike, Text}
+  protected actorTypes = {Player, Block, Spike, Text, Coin}
   protected abstract map: typeof mapStructure
 
   onInitialize() {

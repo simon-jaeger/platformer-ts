@@ -11,7 +11,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJyTZBg4IA7EkqP2D3v7ORkheCDs5wbaWwOka4GYB80N9LJ\/EpCePED2gwAXIwSjg5GS\/kbtH7V\/1P5R+0ftJ93+VCBOQ8LpNLAfVj\/TEmTgsR9WP9MSTGFAtINgGGS\/FBAzDRCWBmIALRAMfA==",
+         "data":"eJyTZBg4IA7EkqP2D3v7ORkheCDs5wbaWwOka4GYB80N9LJ\/EpCePED2gwAXIwSjg5GS\/kbtH7V\/1P5R+2GgGopHqv9JsT8ViNOQcDoN7IfVz7QEGXjsh9XPtARTGBDtIBgG2S8FxEwDhKWBGAAY2Q1y",
          "encoding":"base64",
          "height":24,
          "id":3,
@@ -222,6 +222,39 @@
                  "width":16,
                  "x":432,
                  "y":80
+                }, 
+                {
+                 "height":16,
+                 "id":19,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":32,
+                 "x":464,
+                 "y":272
+                }, 
+                {
+                 "height":16,
+                 "id":20,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Box",
+                 "visible":true,
+                 "width":16,
+                 "x":464,
+                 "y":256
+                }, 
+                {
+                 "height":16,
+                 "id":21,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Box",
+                 "visible":true,
+                 "width":16,
+                 "x":80,
+                 "y":352
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -230,7 +263,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":19,
+ "nextobjectid":22,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

@@ -5,9 +5,10 @@ import Block from "/src/actors/Block"
 import Spike from "/src/actors/Spike"
 import Text from "/src/actors/Text"
 import Coin from "/src/actors/Coin"
+import Box from "/src/actors/Box"
 
 export default abstract class _Level extends Scene {
-  protected actorTypes = {Player, Block, Spike, Text, Coin}
+  protected actorTypes = {Player, Block, Spike, Text, Coin, Box}
   protected abstract map: typeof mapStructure
 
   onInitialize() {

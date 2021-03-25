@@ -6,7 +6,7 @@ import Player from "/src/actors/Player"
 export default class Spike extends _Actor {
   onInitialize() {
     this.body.collider.type = CollisionType.Fixed
-    this.color = Palette.red["400"]
+    // this.color = Palette.red["400"]
   }
 
   onCollision(e: CollisionStartEvent) {

@@ -1,12 +1,14 @@
 import _Level from "/src/levels/_Level"
 import map from "/src/levels/level00.zmap.json"
-import Disappearer from "/src/actors/Disappearer"
+import Text from "/src/actors/Text"
+import Assets from "/src/services/Assets"
 
 export default class Level00 extends _Level {
   protected map = map
 
   onInitialize() {
     super.onInitialize()
-    // this.add(new Disappearer({x: t4, y: t4, width: t6, height: t6}))
+    // language=file-reference
+    this.add(Assets.getMap('/src/levels/level00.zmap.json'))
   }
 }

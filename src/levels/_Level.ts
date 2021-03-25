@@ -11,7 +11,7 @@ export default abstract class _Level extends Scene {
   protected abstract map: typeof mapStructure
 
   onInitialize() {
-    this.map.layers[0].objects.forEach(obj => {
+    this.map.layers[1].objects!.forEach(obj => {
       // fix tiled position
       if (obj.type === Text.name) {
         obj.y += t1

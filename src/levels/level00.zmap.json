@@ -113,8 +113,8 @@
                  "type":"Player",
                  "visible":true,
                  "width":20,
-                 "x":320,
-                 "y":320
+                 "x":352,
+                 "y":304
                 }, 
                 {
                  "height":16,
@@ -255,6 +255,23 @@
                  "width":16,
                  "x":80,
                  "y":352
+                }, 
+                {
+                 "height":16,
+                 "id":23,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":3
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":240,
+                 "y":320
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -263,7 +280,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":22,
+ "nextobjectid":25,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

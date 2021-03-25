@@ -1,14 +1,13 @@
 import _Actor from "/src/actors/_Actor"
 import {CollisionStartEvent, CollisionType} from "excalibur"
 import Player from "/src/actors/Player"
-import Palette from "/src/services/Palette"
+import Assets from "/src/services/Assets"
 
 export default class Coin extends _Actor {
   onInitialize() {
     this.body.collider.type = CollisionType.Passive
-    this.color = Palette.yellow["400"]
-    this.width = t1*0.75
-    this.height = t1*0.75
+    // language=file-reference
+    this.addDrawing(Assets.getTx('/assets/Coin.png'))
   }
 
   onCollision(e: CollisionStartEvent) {

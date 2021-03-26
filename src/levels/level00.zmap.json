@@ -11,7 +11,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJyTZBg4IA7EkqP2D3v7ORkheCDs5wbaWwOka4GYB80N9LJ\/EpCePED2gwAXIwSjg5GS\/kbtH7V\/1P5R+2GgGopHqv9JsT8ViNOQcDoN7IfVz7QEGXjsh9XPtARTGBDtIBgG2S8FxEwDhKWBGAAY2Q1y",
+         "data":"eJyTZBg4IA7EkqP2D3v7ORkheCDs5wbaOxFITwZiHjQ30Mv+vUB6\/wDZDwJcjBCMDkZK+hu1f9T+UftH7YeBaigeqf4nxf5UIE5Dwuk0sL8GiGupaC42kIHH\/kkMkPYBLcEUBkQ7CIZB9ksBMdMAYWkgBgCMxQ30",
          "encoding":"base64",
          "height":24,
          "id":3,
@@ -280,7 +280,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":25,
+ "nextobjectid":31,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

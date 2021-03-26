@@ -13,14 +13,9 @@ export default class Mover extends _Actor {
     this.addDrawing(Assets.getTx("/assets/Mover.png"))
 
     this.actions
-      .moveBy(0, -this.distance * t1, t2)
       .moveBy(0, this.distance * t1, t2)
+      .moveBy(0, -this.distance * t1, t2)
       .repeatForever()
-
-    this.on("collisionstart", () => console.log("start"))
-    this.on("collisionend", () => console.log("end"))
-    this.on("precollision", () => console.log("pre"))
-    this.on("postcollision", () => console.log("post"))
   }
 
   preCollison(e: PreCollisionEvent) {

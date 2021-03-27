@@ -76,6 +76,8 @@ export default class Player extends _Actor {
   }
 
   async onPostKill() {
+    this.vel.x = 0
+    this.vel.y = 0
     this.scene.add(new Disappearer(this.pos.x, this.pos.y))
     await u.sleep(500)
     this.respawn()

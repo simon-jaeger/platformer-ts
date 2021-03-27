@@ -10,7 +10,6 @@ const Assets = new class {
   private maps = new Map<string, TiledResource>()
 
   load() {
-    console.log(mapFiles)
     Object.values(textureFiles).forEach((x) => {
       this.textures.set(x, new Texture(x))
     })

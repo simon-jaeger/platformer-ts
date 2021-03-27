@@ -11,7 +11,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztzbENACAMBDHEEihh\/z35LVLgk652rblOLj6fz+fz+Xw+\/yO\/8x765gcyPQTC",
+         "data":"eJztls0JgDAMRqs3JxB1Pn+mcIeqO1SHUFfz82SthySiiJAP3qWEPihp2szQaRg1fizoCHqQgoyxXyv0OzASTOp\/zF+CCtQ3\/X6\/9Df8YaR+F6yrX\/3q\/69\/BgvBKvAPQj83XP9bUf9\/\/NQbKYk15\/8Xx\/\/kGTkju\/9v+\/15sc+FJLrCqeEym2P+5CD+iAJsOcyo\/g==",
          "encoding":"base64",
          "height":24,
          "id":3,
@@ -70,7 +70,7 @@
                  "visible":true,
                  "width":20,
                  "x":32,
-                 "y":320
+                 "y":32
                 }, 
                 {
                  "height":16,
@@ -90,6 +90,216 @@
                  "width":64,
                  "x":32,
                  "y":0
+                }, 
+                {
+                 "height":288,
+                 "id":54,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":64,
+                 "x":16,
+                 "y":80
+                }, 
+                {
+                 "height":240,
+                 "id":55,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":16,
+                 "x":144,
+                 "y":0
+                }, 
+                {
+                 "height":16,
+                 "id":56,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":80,
+                 "x":80,
+                 "y":352
+                }, 
+                {
+                 "height":64,
+                 "id":57,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":32,
+                 "x":464,
+                 "y":304
+                }, 
+                {
+                 "height":64,
+                 "id":58,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":64,
+                 "x":160,
+                 "y":304
+                }, 
+                {
+                 "height":16,
+                 "id":59,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":240,
+                 "x":224,
+                 "y":352
+                }, 
+                {
+                 "height":16,
+                 "id":60,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":48,
+                 "x":272,
+                 "y":64
+                }, 
+                {
+                 "height":16,
+                 "id":61,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Box",
+                 "visible":true,
+                 "width":16,
+                 "x":304,
+                 "y":48
+                }, 
+                {
+                 "height":224,
+                 "id":62,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":160,
+                 "x":336,
+                 "y":0
+                }, 
+                {
+                 "height":16,
+                 "id":65,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":224,
+                 "y":64
+                }, 
+                {
+                 "height":16,
+                 "id":68,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":-5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":160,
+                 "y":224
+                }, 
+                {
+                 "height":16,
+                 "id":69,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":96,
+                 "y":128
+                }, 
+                {
+                 "height":16,
+                 "id":70,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":112,
+                 "y":160
+                }, 
+                {
+                 "height":16,
+                 "id":71,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":96,
+                 "y":192
+                }, 
+                {
+                 "height":16,
+                 "id":72,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":112,
+                 "y":224
+                }, 
+                {
+                 "height":16,
+                 "id":73,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":112,
+                 "y":96
+                }, 
+                {
+                 "height":16,
+                 "id":74,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":464,
+                 "y":288
+                }, 
+                {
+                 "height":16,
+                 "id":75,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":480,
+                 "y":288
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -98,7 +308,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":54,
+ "nextobjectid":76,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

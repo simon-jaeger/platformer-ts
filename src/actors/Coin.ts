@@ -12,14 +12,12 @@ export default class Coin extends _Actor {
     // language=file-reference
     this.addDrawing(Assets.getTx('/assets/Coin.png'))
     Coin.totalCoins++
-    console.log('init',Coin.totalCoins)
   }
 
   onCollision(e: CollisionStartEvent) {
     if (e.other !== Player.self) return
     this.kill()
     Coin.totalCoins--
-    console.log('col',Coin.totalCoins)
     if (Coin.totalCoins <= 0) {
       console.log('next')
       Curtain.nextLevel()

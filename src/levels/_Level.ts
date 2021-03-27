@@ -15,7 +15,7 @@ export default abstract class _Level extends Scene {
   onInitialize() {
     this.map.layers[1].objects!.forEach(obj => {
       // fix tiled position
-      if (obj.type === Text.name) {
+      if (obj.type === 'Text') {
         obj.y += t1
       } else {
         obj.x += obj.width / 2

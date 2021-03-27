@@ -1,4 +1,4 @@
-import {Loader, SpriteFont, Texture, TileMap} from "excalibur"
+import {Loader, Texture, TileMap} from "excalibur"
 import {TiledResource} from "@excaliburjs/excalibur-tiled"
 
 const textureFiles = Object.keys(import.meta.glob("/assets/*"))

@@ -8,5 +8,5 @@ async function main() {
   Assets.load()
   Curtain.init()
   await Engine.start(Assets.loader)
-  await Curtain.goToLevel(4, false)
+  await Curtain.goToLevel(1, false)
 }

@@ -11,7 +11,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztzbENACAMBDHEEihh\/z35LVLgk652rblOLj6fz+fz+Xw+\/yO\/8x765gcyPQTC",
+         "data":"eJyTZBg4IA7EkqP2j9o\/av+o\/aP2j9o\/av+o\/aP2jzj7DwHxYSLxERrYP1AAZL8UEDMNEJYGYgD7HQ3m",
          "encoding":"base64",
          "height":24,
          "id":3,
@@ -70,11 +70,11 @@
                  "visible":true,
                  "width":20,
                  "x":32,
-                 "y":320
+                 "y":288
                 }, 
                 {
                  "height":16,
-                 "id":9,
+                 "id":54,
                  "name":"",
                  "rotation":0,
                  "text":
@@ -82,14 +82,44 @@
                      "color":"#e0e0e0",
                      "fontfamily":"Segoe UI",
                      "pixelsize":12,
-                     "text":"LEVEL 06",
+                     "text":"GAME CLEAR!",
                      "wrap":true
                     },
                  "type":"Text",
                  "visible":true,
-                 "width":64,
-                 "x":32,
-                 "y":0
+                 "width":96,
+                 "x":48,
+                 "y":224
+                }, 
+                {
+                 "height":16,
+                 "id":55,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#e0e0e0",
+                     "fontfamily":"Segoe UI",
+                     "pixelsize":12,
+                     "text":"CONGRATULATIONS!",
+                     "wrap":true
+                    },
+                 "type":"Text",
+                 "visible":true,
+                 "width":112,
+                 "x":48,
+                 "y":240
+                }, 
+                {
+                 "height":16,
+                 "id":56,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":192,
+                 "x":16,
+                 "y":336
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -98,7 +128,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":54,
+ "nextobjectid":57,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

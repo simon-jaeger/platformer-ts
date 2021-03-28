@@ -11,7 +11,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJyTZBg4IA7EkqP2D3v7ORkheCDs5wbaOxFITwZiHjQ30Mv+vUB6\/wDZDwJcjBCMDkZK+hu1f9T+UftH7YeBaigeqf4nxf5UIE5Dwuk0sL8GiGupaC42kIHH\/kkMkPYBLcEUBkQ7CIZB9ksBMdMAYWkgBgCMxQ30",
+         "data":"eJyTZBg4IA7EkqP2D3v7ORkheCDs5wbaOxFITwZiHjQ30Mv+vUB6\/wDZDwJcjBCMDkZK+hu1f9T+UftH7YeBaigeqf4nxf5UIE5Dwuk0sB8WH7QEGQNs\/xQGRDsIhkH2SwEx0wBhaSAGAFp1DcI=",
          "encoding":"base64",
          "height":24,
          "id":3,
@@ -272,6 +272,17 @@
                  "width":48,
                  "x":240,
                  "y":320
+                }, 
+                {
+                 "height":32,
+                 "id":31,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Box",
+                 "visible":true,
+                 "width":32,
+                 "x":352,
+                 "y":336
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -280,7 +291,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":31,
+ "nextobjectid":32,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

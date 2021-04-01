@@ -1,4 +1,10 @@
-import {Actor, CollisionStartEvent, PostCollisionEvent, Vector} from "excalibur"
+import {
+  Actor,
+  CollisionStartEvent,
+  PostCollisionEvent,
+  PreCollisionEvent,
+  Vector,
+} from "excalibur"
 import Engine from "/src/services/Engine"
 
 export default abstract class _Actor extends Actor {
@@ -11,10 +17,11 @@ export default abstract class _Actor extends Actor {
       width: config.width,
       height: config.height,
     })
-    if (config.props) Object.assign(this, config.props)
+    if (config.properties) config.properties.forEach(x => this[x.name] = x.value)
     this.initialPos = this.pos.clone()
     this.on("collisionstart", this.onCollision.bind(this))
-    this.on("postcollision", this.whileCollision.bind(this))
+    this.on("precollision", this.preCollison.bind(this))
+    this.on("postcollision", this.postCollison.bind(this))
   }
 
   respawn() {
@@ -25,6 +32,9 @@ export default abstract class _Actor extends Actor {
   onCollision(e: CollisionStartEvent) {
   }
 
-  whileCollision(e: PostCollisionEvent) {
+  preCollison(e: PreCollisionEvent) {
+  }
+
+  postCollison(e: PostCollisionEvent) {
   }
 }

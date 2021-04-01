@@ -67,7 +67,7 @@ export default class Player extends _Actor {
     this.midAir = true // mid-air if not overwritten by whileCollision()
   }
 
-  whileCollision(e: PostCollisionEvent) {
+  postCollison(e: PostCollisionEvent) {
     // touching ground --> reset jump related properties
     if (e.other.body.collider.type !== CollisionType.Passive && e.side === Side.Top) {
       this.midAir = false
@@ -76,6 +76,8 @@ export default class Player extends _Actor {
   }
 
   async onPostKill() {
+    this.vel.x = 0
+    this.vel.y = 0
     this.scene.add(new Disappearer(this.pos.x, this.pos.y))
     await u.sleep(500)
     this.respawn()

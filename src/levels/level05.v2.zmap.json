@@ -11,7 +11,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJyTZBg4IA7EkqP2j9o\/yOxPBeI0OuDB6n962z8RiCcPoP3LgXjlILAfFA6TcGBs4UNpuKHbD6JX4MDYwofScBss9u8F4v1Qeh8ODJLnZETFMH2U2k+v8iYdh\/0DBUbtH7V\/uNlPSl4G2S8FxEwDhKWBGAD1v0CI",
+         "data":"eJztlEsOgCAMBcGdn71Bz4d4HT\/XUa9mWUkM1BitxehLZgXJEPJaJYQopGBJCajf\/\/sj86cPvSfkbwmdHdADA+IfCf0TMAML4tdAQ4xB\/Jnc8OXquU0uefv\/Nv\/RTJ6dWcxP0T+D+PXuntufOwn5OfIlv69P7v4JnVOH8\/9j8tvdwYH1V0DCRA2sBwsm8A==",
          "encoding":"base64",
          "height":24,
          "id":3,
@@ -70,7 +70,7 @@
                  "visible":true,
                  "width":20,
                  "x":32,
-                 "y":320
+                 "y":272
                 }, 
                 {
                  "height":16,
@@ -82,7 +82,7 @@
                      "color":"#e0e0e0",
                      "fontfamily":"Segoe UI",
                      "pixelsize":12,
-                     "text":"LEVEL 01",
+                     "text":"LEVEL 05",
                      "wrap":true
                     },
                  "type":"Text",
@@ -93,362 +93,463 @@
                 }, 
                 {
                  "height":16,
-                 "id":10,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Block",
-                 "visible":true,
-                 "width":176,
-                 "x":320,
-                 "y":352
-                }, 
-                {
-                 "height":16,
-                 "id":11,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"Move",
-                     "wrap":true
-                    },
-                 "type":"Text",
-                 "visible":true,
-                 "width":128,
-                 "x":32,
-                 "y":272
-                }, 
-                {
-                 "height":16,
-                 "id":12,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"Jump",
-                     "wrap":true
-                    },
-                 "type":"Text",
-                 "visible":true,
-                 "width":112,
-                 "x":240,
-                 "y":272
-                }, 
-                {
-                 "height":16,
-                 "id":15,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Block",
-                 "visible":true,
-                 "width":432,
-                 "x":16,
-                 "y":240
-                }, 
-                {
-                 "height":16,
-                 "id":16,
+                 "id":54,
                  "name":"",
                  "properties":[
                         {
                          "name":"distance",
                          "type":"int",
-                         "value":-6
+                         "value":5
                         }],
                  "rotation":0,
                  "type":"Mover",
                  "visible":true,
                  "width":48,
-                 "x":448,
-                 "y":320
+                 "x":112,
+                 "y":256
                 }, 
                 {
-                 "height":64,
-                 "id":17,
+                 "height":16,
+                 "id":56,
                  "name":"",
                  "rotation":0,
                  "type":"Block",
                  "visible":true,
-                 "width":32,
-                 "x":240,
-                 "y":176
+                 "width":96,
+                 "x":16,
+                 "y":304
                 }, 
                 {
                  "height":16,
-                 "id":18,
+                 "id":57,
                  "name":"",
                  "rotation":0,
                  "type":"Spike",
                  "visible":true,
-                 "width":64,
-                 "x":176,
-                 "y":224
-                }, 
-                {
-                 "height":64,
-                 "id":20,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Block",
-                 "visible":true,
-                 "width":128,
-                 "x":48,
-                 "y":176
-                }, 
-                {
-                 "height":96,
-                 "id":21,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Block",
-                 "visible":true,
-                 "width":32,
+                 "width":480,
                  "x":16,
-                 "y":144
+                 "y":352
                 }, 
                 {
                  "height":16,
-                 "id":22,
+                 "id":58,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":-5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":160,
+                 "y":336
+                }, 
+                {
+                 "height":16,
+                 "id":63,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":96,
+                 "x":400,
+                 "y":288
+                }, 
+                {
+                 "height":16,
+                 "id":68,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":352,
+                 "x":80,
+                 "y":224
+                }, 
+                {
+                 "height":16,
+                 "id":69,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":352,
+                 "x":80,
+                 "y":240
+                }, 
+                {
+                 "height":16,
+                 "id":70,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":-5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":256,
+                 "y":336
+                }, 
+                {
+                 "height":16,
+                 "id":71,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":208,
+                 "y":256
+                }, 
+                {
+                 "height":16,
+                 "id":72,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":-5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":352,
+                 "y":336
+                }, 
+                {
+                 "height":16,
+                 "id":73,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":5
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":304,
+                 "y":256
+                }, 
+                {
+                 "height":128,
+                 "id":74,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":16,
+                 "x":480,
+                 "y":160
+                }, 
+                {
+                 "height":16,
+                 "id":75,
                  "name":"",
                  "rotation":0,
                  "type":"Block",
                  "visible":true,
                  "width":416,
                  "x":80,
+                 "y":144
+                }, 
+                {
+                 "height":16,
+                 "id":76,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":48,
+                 "x":336,
+                 "y":160
+                }, 
+                {
+                 "height":16,
+                 "id":77,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":48,
+                 "x":208,
+                 "y":160
+                }, 
+                {
+                 "height":16,
+                 "id":78,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":48,
+                 "x":80,
+                 "y":160
+                }, 
+                {
+                 "height":16,
+                 "id":79,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":16,
+                 "x":160,
+                 "y":208
+                }, 
+                {
+                 "height":16,
+                 "id":80,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":16,
+                 "x":288,
+                 "y":208
+                }, 
+                {
+                 "height":240,
+                 "id":82,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":16,
+                 "x":16,
+                 "y":0
+                }, 
+                {
+                 "height":32,
+                 "id":83,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":16,
+                 "x":80,
+                 "y":112
+                }, 
+                {
+                 "height":16,
+                 "id":84,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"distance",
+                         "type":"int",
+                         "value":-8
+                        }],
+                 "rotation":0,
+                 "type":"Mover",
+                 "visible":true,
+                 "width":48,
+                 "x":32,
+                 "y":224
+                }, 
+                {
+                 "height":16,
+                 "id":85,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Spike",
+                 "visible":true,
+                 "width":16,
+                 "x":80,
                  "y":96
                 }, 
                 {
                  "height":16,
-                 "id":23,
+                 "id":86,
                  "name":"",
                  "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"Collect all coins to clear the level",
-                     "wrap":true
-                    },
-                 "type":"Text",
+                 "type":"Coin",
                  "visible":true,
-                 "width":192,
+                 "width":16,
+                 "x":144,
+                 "y":128
+                }, 
+                {
+                 "height":16,
+                 "id":88,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
                  "x":160,
-                 "y":32
+                 "y":128
                 }, 
                 {
                  "height":16,
-                 "id":24,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":208,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":25,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":192,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":26,
+                 "id":89,
                  "name":"",
                  "rotation":0,
                  "type":"Coin",
                  "visible":true,
                  "width":16,
                  "x":176,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":27,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":224,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":33,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"(Arrow keys)",
-                     "wrap":true
-                    },
-                 "type":"Text",
-                 "visible":true,
-                 "width":128,
-                 "x":32,
-                 "y":288
-                }, 
-                {
-                 "height":16,
-                 "id":34,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"(Space)",
-                     "wrap":true
-                    },
-                 "type":"Text",
-                 "visible":true,
-                 "width":112,
-                 "x":240,
-                 "y":288
-                }, 
-                {
-                 "height":16,
-                 "id":35,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"Air jump",
-                     "wrap":true
-                    },
-                 "type":"Text",
-                 "visible":true,
-                 "width":112,
-                 "x":304,
                  "y":128
                 }, 
                 {
                  "height":16,
-                 "id":36,
-                 "name":"",
-                 "rotation":0,
-                 "text":
-                    {
-                     "color":"#e0e0e0",
-                     "fontfamily":"Segoe UI",
-                     "pixelsize":12,
-                     "text":"(Space while mid-air)",
-                     "wrap":true
-                    },
-                 "type":"Text",
-                 "visible":true,
-                 "width":112,
-                 "x":304,
-                 "y":144
-                }, 
-                {
-                 "height":16,
-                 "id":38,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":288,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":40,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":256,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":41,
+                 "id":90,
                  "name":"",
                  "rotation":0,
                  "type":"Coin",
                  "visible":true,
                  "width":16,
                  "x":272,
-                 "y":80
+                 "y":128
                 }, 
                 {
                  "height":16,
-                 "id":42,
+                 "id":91,
                  "name":"",
                  "rotation":0,
                  "type":"Coin",
                  "visible":true,
                  "width":16,
-                 "x":352,
-                 "y":80
+                 "x":256,
+                 "y":128
                 }, 
                 {
                  "height":16,
-                 "id":43,
+                 "id":92,
                  "name":"",
                  "rotation":0,
                  "type":"Coin",
                  "visible":true,
                  "width":16,
-                 "x":304,
-                 "y":80
+                 "x":240,
+                 "y":128
                 }, 
                 {
                  "height":16,
-                 "id":45,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":336,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":47,
-                 "name":"",
-                 "rotation":0,
-                 "type":"Coin",
-                 "visible":true,
-                 "width":16,
-                 "x":384,
-                 "y":80
-                }, 
-                {
-                 "height":16,
-                 "id":48,
+                 "id":93,
                  "name":"",
                  "rotation":0,
                  "type":"Coin",
                  "visible":true,
                  "width":16,
                  "x":368,
-                 "y":80
+                 "y":128
+                }, 
+                {
+                 "height":16,
+                 "id":94,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":352,
+                 "y":128
+                }, 
+                {
+                 "height":16,
+                 "id":95,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":336,
+                 "y":128
+                }, 
+                {
+                 "height":16,
+                 "id":96,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":480,
+                 "y":96
+                }, 
+                {
+                 "height":16,
+                 "id":97,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":464,
+                 "y":96
+                }, 
+                {
+                 "height":16,
+                 "id":98,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":448,
+                 "y":96
+                }, 
+                {
+                 "height":16,
+                 "id":100,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":160,
+                 "y":160
+                }, 
+                {
+                 "height":16,
+                 "id":103,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Coin",
+                 "visible":true,
+                 "width":16,
+                 "x":288,
+                 "y":160
+                }, 
+                {
+                 "height":32,
+                 "id":105,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":48,
+                 "x":448,
+                 "y":112
+                }, 
+                {
+                 "height":16,
+                 "id":106,
+                 "name":"",
+                 "rotation":0,
+                 "type":"Block",
+                 "visible":true,
+                 "width":64,
+                 "x":16,
+                 "y":240
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -457,7 +558,7 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":54,
+ "nextobjectid":107,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

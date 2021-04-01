@@ -13,6 +13,55 @@
             "width": 512,
             "x": 0,
             "y": 416
+        },
+        {
+            "fileName": "level02.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 832
+        },
+        {
+            "fileName": "level03.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 1248
+        },
+        {
+            "fileName": "level04.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 1664
+        },
+        {
+            "fileName": "level05.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 2080
+        },
+        {
+            "fileName": "level06.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 2496
+        },
+        {
+            "fileName": "level07.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 2912
+        },
+        {
+            "fileName": "level08.zmap.json",
+            "height": 384,
+            "width": 512,
+            "x": 0,
+            "y": 3328
         }
     ],
     "onlyShowAdjacentMaps": false,

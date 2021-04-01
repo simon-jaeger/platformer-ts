@@ -5,15 +5,17 @@ import Block from "/src/actors/Block"
 import Spike from "/src/actors/Spike"
 import Text from "/src/actors/Text"
 import Coin from "/src/actors/Coin"
+import Box from "/src/actors/Box"
+import Mover from "/src/actors/Mover"
 
 export default abstract class _Level extends Scene {
-  protected actorTypes = {Player, Block, Spike, Text, Coin}
+  protected actorTypes = {Player, Block, Spike, Text, Coin, Box, Mover}
   protected abstract map: typeof mapStructure
 
   onInitialize() {
     this.map.layers[1].objects!.forEach(obj => {
       // fix tiled position
-      if (obj.type === Text.name) {
+      if (obj.type === 'Text') {
         obj.y += t1
       } else {
         obj.x += obj.width / 2

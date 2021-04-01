@@ -1,4 +1,4 @@
-import {Loader, SpriteFont, Texture, TileMap} from "excalibur"
+import {Loader, Texture, TileMap} from "excalibur"
 import {TiledResource} from "@excaliburjs/excalibur-tiled"
 
 const textureFiles = Object.keys(import.meta.glob("/assets/*"))
@@ -10,7 +10,6 @@ const Assets = new class {
   private maps = new Map<string, TiledResource>()
 
   load() {
-    console.log(mapFiles)
     Object.values(textureFiles).forEach((x) => {
       this.textures.set(x, new Texture(x))
     })

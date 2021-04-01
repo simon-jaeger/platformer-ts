@@ -1,5 +1,5 @@
 import _Level from "/src/levels/_Level"
-import map from "/src/levels/level04.zmap.json"
+import map from "/src/levels/level04.v2.zmap.json"
 import Assets from "/src/services/Assets"
 
 export default class Level04 extends _Level {
@@ -8,6 +8,6 @@ export default class Level04 extends _Level {
   onInitialize() {
     super.onInitialize()
     // language=file-reference
-    this.add(Assets.getMap('/src/levels/level04.zmap.json'))
+    this.add(Assets.getMap('/src/levels/level04.v2.zmap.json'))
   }
 }

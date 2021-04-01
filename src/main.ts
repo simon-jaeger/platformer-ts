@@ -10,3 +10,9 @@ async function main() {
   await Engine.start(Assets.loader)
   await Curtain.goToLevel(1, false)
 }
+
+function goToLevel(n) {
+  Curtain.goToLevel(n, false)
+}
+// @ts-ignore
+window.goToLevel = goToLevel
